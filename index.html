@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="name">Static Resume Builder</h1>
+      <p class="name">by Muhammad Ahmad</p>
+    </header>
+    <div id="container">
+      <div>
+        <img src="profile.jpg" alt="Profile Picture" />
+      </div>
+
+      <!-- Personal Information -->
+      <section>
+        <div>
+          <h2>Personal Information</h2>
+          <ul>
+            <li>
+              <p><strong>Name: </strong>Muhammad Ahmad</p>
+            </li>
+            <li>
+              <p><strong>Email: </strong>aq320646@gmail.com</p>
+            </li>
+            <li>
+              <p><strong>Phone: </strong>03322668303</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li><h3>Matriculation:</h3></li>
+          <p id="education">
+            <strong>School: </strong>Sir Syed Children's Academy
+          </p>
+          <p id="education"><strong>Year: </strong>2020 - 2022</p>
+
+          <li><h3>Intermediate in Commerce:</h3></li>
+          <p id="education">
+            <strong>College: </strong>Govt. Boys Premier College
+          </p>
+          <p id="education"><strong>Year: </strong>2022 - 2024</p>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+        </ul>
+      </section>
+
+      <!-- Experience -->
+      <section>
+        <h2>Experience</h2>
+        <ul>
+          <li>Front-End Development</li>
+          <li>Back-End Development</li>
+          <li>Version Control</li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="button">
+      <input type="button" id="toggleButton" value="Hide Skills" />
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

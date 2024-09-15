@@ -1,4 +1,4 @@
-Milestone 1: Static Interactive Resume Builder (100 Points)
+# Milestone 1: Static Interactive Resume Builder (100 Points)
 
 Objective:
 Build a static resume using HTML, CSS, and TypeScript.
